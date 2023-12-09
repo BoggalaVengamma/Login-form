@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#nav{
+    height: 80px;
+    width: 100%;
+    background-color:black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+#nav>a{
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    text-shadow: 2px 2px 5px white;
+}
+#myForm{
+    height: 90vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+
+}
+#myForm>form{
+    height: 250px;
+    width: 250px;
+    background-color: antiquewhite;
+    border-radius: 5px;
+    box-shadow: 0px 0px 30px white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#homepage{
+    height: 90vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+
+}
+#cards{
+    height: 200px;
+    width: 200px;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    box-shadow: 0px 0px 30px white;
+}
+#cards>table>tr>th{
+    padding-bottom: 13px;
+}
+#cards>table>tr>td,th{
+    padding-left: 15px;
+    padding-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+}
+#cards>table>tr>td{
+    border: 1px solid black;
+}
+#cards>table>tr>td>button{
+    /* text-decoration: none; */
+    /* list-style-type: none; */
+    height: 30px;
+    width: 100%;
+    border: 2px solid black;
+    padding: 5px;
+    background-color: brown;
+    color: white;
+}
+h1{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+    font-style: italic;
+}

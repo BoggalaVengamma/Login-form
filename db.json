@@ -1,0 +1,44 @@
+{
+  "employees": [
+    {
+      "id": 1,
+      "name": "Bala"
+    },
+    {
+      "name": "Bala",
+      "salary": "20000",
+      "company": "IBM",
+      "id": 2
+    },
+    {
+      "name": "swathi",
+      "salary": "25000",
+      "company": "Steerminds",
+      "id": 3
+    },
+    {
+      "name": "pavithra",
+      "salary": "25000",
+      "company": "Steerminds",
+      "id": 4
+    },
+    {
+      "name": "bala",
+      "salary": "422222",
+      "company": "zxc",
+      "id": 5
+    },
+    {
+      "name": "bala",
+      "salary": "2000",
+      "company": "ibm",
+      "id": 6
+    },
+    {
+      "name": "prasad",
+      "salary": "10000",
+      "company": "wipro",
+      "id": 7
+    }
+  ]
+}
